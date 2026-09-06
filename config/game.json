@@ -1,0 +1,35 @@
+﻿{
+  "global": {
+    "startLives": 3,
+    "answerLockoutSec": 0.5,
+    "scoreBase": 100,
+    "choice": { "maxAttempts": 2, "scoreDecay": 0.5 },
+    "pacing": { "afterDestroySec": 2.6, "afterCrashSec": 2.8 }
+  },
+  "stages": [
+    { "panels": 5, "timeLimitSec": 10, "rotSpeedDegSec": 40, "rotComplexity": 0, "difficultyWeights": [0.8, 0.2, 0.0] },
+    { "panels": 5, "timeLimitSec": 10, "rotSpeedDegSec": 55, "rotComplexity": 0, "difficultyWeights": [0.5, 0.4, 0.1] },
+    { "panels": 6, "timeLimitSec": 9, "rotSpeedDegSec": 70, "rotComplexity": 1, "difficultyWeights": [0.3, 0.5, 0.2] },
+    { "panels": 6, "timeLimitSec": 9, "rotSpeedDegSec": 85, "rotComplexity": 1, "difficultyWeights": [0.3, 0.5, 0.2] },
+    { "panels": 7, "timeLimitSec": 8, "rotSpeedDegSec": 100, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 7, "timeLimitSec": 8, "rotSpeedDegSec": 120, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 7, "timeLimitSec": 7, "rotSpeedDegSec": 140, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 7, "rotSpeedDegSec": 160, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 6, "rotSpeedDegSec": 180, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 6, "rotSpeedDegSec": 200, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 5, "rotSpeedDegSec": 220, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 5, "rotSpeedDegSec": 240, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 5, "rotSpeedDegSec": 260, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 5, "rotSpeedDegSec": 280, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 4, "rotSpeedDegSec": 300, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 4, "rotSpeedDegSec": 400, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 4, "rotSpeedDegSec": 500, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 3, "rotSpeedDegSec": 600, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 3, "rotSpeedDegSec": 700, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] },
+    { "panels": 8, "timeLimitSec": 3, "rotSpeedDegSec": 800, "rotComplexity": 2, "difficultyWeights": [0.2, 0.4, 0.4] }
+  ],
+  "endless": { "timeLimitFactor": 0.95, "rotSpeedFactor": 1.08, "minTimeLimitSec": 3 },
+  "learning": { "timeLimitSec": 20, "rotSpeedDegSec": 35, "rotComplexity": 0, "difficultyWeights": [0.4, 0.35, 0.25] }
+}
+
+

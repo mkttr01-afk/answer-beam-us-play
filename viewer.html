@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State Viewer | ANSWER BEAM</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #05070c;
+        font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+      #app,
+      #app canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      #hud {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding: 8px 14px;
+        color: #cfd6da;
+        font-size: 13px;
+        background: linear-gradient(#0b0e12ee, #0b0e1200);
+      }
+      #hud label {
+        cursor: pointer;
+        user-select: none;
+      }
+      .state-label {
+        position: fixed;
+        z-index: 5;
+        transform: translate(-50%, 0);
+        color: #aeb8bf;
+        font-size: 12px;
+        line-height: 1.15;
+        text-align: center;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+      .state-label small {
+        display: block;
+        color: #5a666e;
+        font-size: 10px;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/viewer-BhoqDNbU.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/geometry-CQ_TjSeO.js">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud">
+      <strong>State Viewer</strong>
+      <span id="stats">Loading…</span>
+      <label><input type="checkbox" id="rotate" /> Rotate (front-facing start, fixed axis)</label>
+    </div>
+  </body>
+</html>
